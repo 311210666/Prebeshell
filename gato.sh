@@ -17,12 +17,26 @@ posicion(){
     echo "No existe"
   fi
 }
+  #echo "r\c 0 1 2"
+  #echo "0   ${acom[0]} ${acom[1]} ${acom[2]}"
+  #echo "1   ${acom[3]} ${acom[4]} ${acom[5]}"
+  #echo "2   ${acom[6]} ${acom[7]} ${acom[8]}"
+
+
 
 tablero(){
-  echo "r\c 0 1 2"
-  echo "0   ${acom[0]} ${acom[1]} ${acom[2]}"
-  echo "1   ${acom[3]} ${acom[4]} ${acom[5]}"
-  echo "2   ${acom[6]} ${acom[7]} ${acom[8]}"
+echo "_________________________________"   
+echo "/        ________________        |"
+echo "| == .  |  r\c 0 1 2     |     o |"  
+echo "|   _   |  0    ${acom[0]} ${acom[1]} ${acom[2]}    |    B  |"  
+echo "|  / \  |  1    ${acom[3]} ${acom[4]} ${acom[5]}    | A   O |"  
+echo "| | O | |  2    ${acom[6]} ${acom[7]} ${acom[8]}    |  O    |"  
+echo "|  \_/  |                |       |" 
+echo "|       |                | . . . |"  
+echo "|  :::  |                | . . . |" 
+echo "|  :::  |________________| . . . |" 
+echo "|           S N K                |" 
+echo "\________________________________/"
 }
 
 revisar(){
