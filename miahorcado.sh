@@ -2,7 +2,7 @@
 
 
 
-palabrasarchivo="/home/stephanie/Escritorio/PREBESHELL/Prebeshell/listaanimales"
+palabrasarchivo="./listaanimales"
 inicio=0
 
 
